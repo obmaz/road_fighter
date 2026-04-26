@@ -4,16 +4,16 @@ import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:initial_sj/app/router/app_router.dart';
-import 'package:initial_sj/features/gameplay/widgets/pause_overlay.dart';
-import 'package:initial_sj/game/engine/camera_centered_game.dart';
-import 'package:initial_sj/game/engine/game_session_controller.dart';
-import 'package:initial_sj/game/hud/gameplay_hud_overlay.dart';
-import 'package:initial_sj/game/engine/gameplay_commands.dart';
-import 'package:initial_sj/game/world/stage_layout.dart';
-import 'package:initial_sj/shared/models/result_summary.dart';
-import 'package:initial_sj/shared/models/stage_run.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/app/router/app_router.dart';
+import 'package:initialsj/features/gameplay/widgets/pause_overlay.dart';
+import 'package:initialsj/game/engine/camera_centered_game.dart';
+import 'package:initialsj/game/engine/game_session_controller.dart';
+import 'package:initialsj/game/hud/gameplay_hud_overlay.dart';
+import 'package:initialsj/game/engine/gameplay_commands.dart';
+import 'package:initialsj/game/world/stage_layout.dart';
+import 'package:initialsj/shared/models/result_summary.dart';
+import 'package:initialsj/shared/models/stage_run.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
 class GameplayScreen extends StatefulWidget {
   const GameplayScreen({super.key});

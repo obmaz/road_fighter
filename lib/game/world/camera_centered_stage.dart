@@ -3,8 +3,8 @@ import 'dart:ui';
 
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
-import 'package:initial_sj/game/engine/camera_centered_game.dart';
-import 'package:initial_sj/game/world/stage_layout.dart';
+import 'package:initialsj/game/engine/camera_centered_game.dart';
+import 'package:initialsj/game/world/stage_layout.dart';
 
 class CameraCenteredStage extends Component
     with HasGameReference<CameraCenteredGame> {

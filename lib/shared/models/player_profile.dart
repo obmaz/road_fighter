@@ -1,4 +1,4 @@
-import 'package:initial_sj/shared/models/vehicle_spec.dart';
+import 'package:initialsj/shared/models/vehicle_spec.dart';
 
 class PlayerProfile {
   final String playerId;

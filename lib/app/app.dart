@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
-import 'package:initial_sj/app/router/app_router.dart';
-import 'package:initial_sj/app/theme/app_theme.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/app/router/app_router.dart';
+import 'package:initialsj/app/theme/app_theme.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
-class InitialSjApp extends StatelessWidget {
+class InitialsjApp extends StatelessWidget {
   final AppStateController appState;
 
-  const InitialSjApp({super.key, required this.appState});
+  const InitialsjApp({super.key, required this.appState});
 
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [ChangeNotifierProvider.value(value: appState)],
       child: MaterialApp.router(
-        title: 'initialSJ',
+        title: 'initialsj',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.retroTheme,
         routerConfig: AppRouter.router,

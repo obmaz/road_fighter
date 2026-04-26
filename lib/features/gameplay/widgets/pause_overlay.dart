@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:initial_sj/app/router/app_router.dart';
-import 'package:initial_sj/game/engine/game_session_controller.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
-import 'package:initial_sj/shared/widgets/retro_button.dart';
+import 'package:initialsj/app/router/app_router.dart';
+import 'package:initialsj/game/engine/game_session_controller.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
+import 'package:initialsj/shared/widgets/retro_button.dart';
 
 class PauseOverlay extends StatelessWidget {
   final GameSessionController sessionController;

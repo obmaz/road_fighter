@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:initial_sj/core/services/local_storage_service.dart';
-import 'package:initial_sj/game/world/stage_layout.dart';
-import 'package:initial_sj/shared/models/player_profile.dart';
-import 'package:initial_sj/shared/models/result_summary.dart';
-import 'package:initial_sj/shared/models/stage_run.dart';
-import 'package:initial_sj/shared/models/vehicle_spec.dart';
+import 'package:initialsj/core/services/local_storage_service.dart';
+import 'package:initialsj/game/world/stage_layout.dart';
+import 'package:initialsj/shared/models/player_profile.dart';
+import 'package:initialsj/shared/models/result_summary.dart';
+import 'package:initialsj/shared/models/stage_run.dart';
+import 'package:initialsj/shared/models/vehicle_spec.dart';
 
 class AppStateController extends ChangeNotifier {
   final LocalStorageService _storage;

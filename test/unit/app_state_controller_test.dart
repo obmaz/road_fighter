@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:initial_sj/core/services/local_storage_service.dart';
-import 'package:initial_sj/shared/models/result_summary.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/core/services/local_storage_service.dart';
+import 'package:initialsj/shared/models/result_summary.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:initial_sj/shared/models/player_profile.dart';
+import 'package:initialsj/shared/models/player_profile.dart';
 
 class LocalStorageService {
   static const String _profileKey = 'player_profile';

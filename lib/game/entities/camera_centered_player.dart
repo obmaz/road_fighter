@@ -2,9 +2,9 @@ import 'dart:math' as math;
 
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
-import 'package:initial_sj/game/engine/camera_centered_game.dart';
-import 'package:initial_sj/game/engine/gameplay_commands.dart';
-import 'package:initial_sj/shared/models/vehicle_spec.dart';
+import 'package:initialsj/game/engine/camera_centered_game.dart';
+import 'package:initialsj/game/engine/gameplay_commands.dart';
+import 'package:initialsj/shared/models/vehicle_spec.dart';
 
 class CameraCenteredPlayer extends SpriteComponent
     with HasGameReference<CameraCenteredGame> {

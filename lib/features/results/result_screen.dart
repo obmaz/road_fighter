@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:initial_sj/app/router/app_router.dart';
-import 'package:initial_sj/game/world/stage_layout.dart';
-import 'package:initial_sj/shared/models/result_summary.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/app/router/app_router.dart';
+import 'package:initialsj/game/world/stage_layout.dart';
+import 'package:initialsj/shared/models/result_summary.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});

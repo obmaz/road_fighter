@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:initial_sj/core/services/local_storage_service.dart';
-import 'package:initial_sj/shared/models/player_profile.dart';
+import 'package:initialsj/core/services/local_storage_service.dart';
+import 'package:initialsj/shared/models/player_profile.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

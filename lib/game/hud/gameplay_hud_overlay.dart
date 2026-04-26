@@ -1,8 +1,8 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'package:initial_sj/game/engine/camera_centered_game.dart';
-import 'package:initial_sj/game/engine/game_session_controller.dart';
-import 'package:initial_sj/shared/models/stage_run.dart';
+import 'package:initialsj/game/engine/camera_centered_game.dart';
+import 'package:initialsj/game/engine/game_session_controller.dart';
+import 'package:initialsj/shared/models/stage_run.dart';
 
 class GameplayHudOverlay extends StatelessWidget {
   static const double _countdownSeconds = 3.0;

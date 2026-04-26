@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:initial_sj/features/garage/vehicle_select_screen.dart';
-import 'package:initial_sj/features/gameplay/gameplay_screen.dart';
-import 'package:initial_sj/features/results/result_screen.dart';
-import 'package:initial_sj/features/title/title_screen.dart';
+import 'package:initialsj/features/garage/vehicle_select_screen.dart';
+import 'package:initialsj/features/gameplay/gameplay_screen.dart';
+import 'package:initialsj/features/results/result_screen.dart';
+import 'package:initialsj/features/title/title_screen.dart';
 
 class AppRouter {
   static const String titlePath = '/';

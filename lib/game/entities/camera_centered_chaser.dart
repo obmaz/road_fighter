@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
-import 'package:initial_sj/game/engine/camera_centered_game.dart';
+import 'package:initialsj/game/engine/camera_centered_game.dart';
 
 class CameraCenteredChaser extends SpriteComponent
     with HasGameReference<CameraCenteredGame> {

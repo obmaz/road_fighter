@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:initial_sj/app/app.dart';
+import 'package:initialsj/app/app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:initial_sj/core/services/local_storage_service.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/core/services/local_storage_service.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,7 @@ void main() {
     final storage = LocalStorageService(prefs);
     final appState = AppStateController(storage);
 
-    await tester.pumpWidget(InitialSjApp(appState: appState));
+    await tester.pumpWidget(InitialsjApp(appState: appState));
 
     // Initial state: Title Screen
     expect(find.byType(Image), findsOneWidget);

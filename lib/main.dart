@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:initial_sj/app/app.dart';
-import 'package:initial_sj/core/services/local_storage_service.dart';
-import 'package:initial_sj/game/world/stage_layout.dart';
-import 'package:initial_sj/shared/state/app_state_controller.dart';
+import 'package:initialsj/app/app.dart';
+import 'package:initialsj/core/services/local_storage_service.dart';
+import 'package:initialsj/game/world/stage_layout.dart';
+import 'package:initialsj/shared/state/app_state_controller.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,5 +31,5 @@ void main() async {
 
   await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 
-  runApp(InitialSjApp(appState: appState));
+  runApp(InitialsjApp(appState: appState));
 }

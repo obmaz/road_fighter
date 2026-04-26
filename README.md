@@ -1,10 +1,10 @@
-# initialSJ
+# initialsj
 
 ## Play on Mobile
 
 모바일에서 아래 GitHub Pages 주소로 접속하면 바로 게임을 실행할 수 있습니다.
 
-https://obmaz.github.io/initialSJ/#/gameplay
+https://obmaz.github.io/initialsj/#/gameplay
 
 주의: 이 프로젝트는 모바일 세로 화면 기준으로 맞춰져 있어서 PC에서 접속하면 화면 레이아웃이 깨질 수 있습니다.
 

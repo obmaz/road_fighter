@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:initial_sj/game/engine/gameplay_commands.dart';
-import 'package:initial_sj/shared/models/result_summary.dart';
-import 'package:initial_sj/shared/models/stage_run.dart';
+import 'package:initialsj/game/engine/gameplay_commands.dart';
+import 'package:initialsj/shared/models/result_summary.dart';
+import 'package:initialsj/shared/models/stage_run.dart';
 
 class GameSessionController {
   // Broadcasters
